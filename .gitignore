@@ -1,0 +1,116 @@
+# .gitignore for Python (FastAPI) backend + Vue3 frontend
+# Cross-platform (Windows, macOS) and common IDEs/tools
+
+############################################
+# Python / FastAPI
+############################################
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+build/
+dist/
+downloads/
+eggs/
+.eggs/
+*.egg-info/
+pip-wheel-metadata/
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+.env
+.env.*
+
+# pyenv
+.python-version
+
+# pipenv / poetry
+Pipfile.lock
+poetry.lock
+
+# pytest / caching
+.pytest_cache/
+.mypy_cache/
+.coverage
+.coverage.*
+.cache
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints
+
+############################################
+# Node / Vue3 / Vite
+############################################
+node_modules/
+dist/
+build/
+.vite/
+.turbo/
+/.pnp/
+.pnp.js
+
+# Local env files for frontend
+.env.local
+.env.*.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+*.log
+
+############################################
+# OS-specific
+############################################
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+############################################
+# IDEs / editors
+############################################
+.vscode/
+.idea/
+*.iml
+.history/
+
+# Swap / temporary files
+*~
+*.swp
+*.swo
+*.tmp
+*.temp
+*.bak
+
+############################################
+# Docker / Compose
+docker-compose.override.yml
+
+############################################
+# Others
+# coverage, reports, caches
+coverage.xml
+nosetests.xml
+.hypothesis/
+db.toml
+user-data/
+
+############################################
+# Keep agent directory in repo
+!/agent/
+_*/

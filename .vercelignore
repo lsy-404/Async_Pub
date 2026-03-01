@@ -1,0 +1,21 @@
+# Exclude everything by default
+*
+
+# Include monorepo metadata required for dependency install/build
+!package.json
+!pnpm-workspace.yaml
+!pnpm-lock.yaml
+!.npmrc
+
+# Include deploy target app (web)
+!apps/
+!apps/web/
+!apps/web/**
+
+# Include common shared packages if introduced later
+!packages/
+!packages/**
+
+# Keep deployment config files
+!vercel.json
+!.vercelignore
