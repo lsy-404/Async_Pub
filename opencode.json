@@ -5,7 +5,8 @@
       "type": "local",
       "enabled": true,
       "command": [
-        "npx",
+        "pnpm",
+        "dlx",
         "shadcn-vue@latest",
         "mcp"
       ]
